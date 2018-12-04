@@ -1,0 +1,135 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+/*header*/
+
+.header-main {
+	display: flex;
+	position: relative;
+	justify-content: space-around;
+	align-items: center;
+	height: 100px;
+	background: #000;
+}
+
+.logo h2{
+	text-transform: uppercase;
+	font-family: 'Caveat', cursive;
+	color: #fff;
+	font-size: 40px;
+	
+}
+
+.menu ul {	
+	display: flex;
+	flex-direction: row;
+}
+
+.menu li a{
+	padding: 0 15px;
+	text-decoration: none;
+	/*text-transform: uppercase;*/
+	color: #fff;
+	font-family: 'Didact Gothic', sans-serif;
+	font-size: 20px;
+}
+
+/*main*/
+
+.main-block {
+	margin:  30px auto 0;
+	display: flex;
+	width: 1400px;
+	height: 700px;
+	border: 1px solid #000;
+	background: url() no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+
+/*items*/
+
+.main-items {
+	width: 1200px;
+	margin: auto;
+	padding: 30px;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.item {
+	margin-bottom: 30px;
+	width: 350px;
+	height: 600px;
+	border: 1px solid #000;
+	/*display: flex;
+	justify-content: space-between;
+	align-items: center;
+	position: relative;*/
+}
+
+.item1 {
+	width: 350px;
+	height: 600px;
+	background: url(../img/8990148-1-black.jpg);
+	/*background: url(../img/hoodie1.png) no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	position: relative;
+	left: 60%;
+	top: -170px;
+	transition: .5s;*/
+}
+
+/*.check {
+	position: absolute;
+	left: 40px;
+	top: 30%;
+}
+
+
+
+#chlen2:checked ~ .item1{
+	background: url(../img/hoodie2.png) no-repeat;
+	width: 280px;
+	height: 300px;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+
+#chlen3:checked ~ .item1{
+	background: url(../img/hoodie3.png) no-repeat;
+	width: 280px;
+	height: 300px;
+	-webkit-background-size: cover;
+	background-size: cover;
+}*/
+
+.footer {
+	height: 100px;
+	background: #000;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.footer > .logo {
+	width: 400px;
+	background-position: 70% 50%;
+} 
+
+.menu-footer ul{
+	display: flex;
+	flex-direction: row;
+
+}
+
+.menu-footer li a{
+	padding: 0 15px;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: pink;
+}
