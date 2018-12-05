@@ -18,8 +18,7 @@ body {
 	text-transform: uppercase;
 	font-family: 'Caveat', cursive;
 	color: #fff;
-	font-size: 40px;
-	
+	font-size: 40px;	
 }
 
 .menu ul {	
@@ -28,12 +27,34 @@ body {
 }
 
 .menu li a{
-	padding: 0 15px;
+	margin: 0 15px;
 	text-decoration: none;
 	/*text-transform: uppercase;*/
 	color: #fff;
 	font-family: 'Didact Gothic', sans-serif;
 	font-size: 20px;
+}
+
+.underline a {
+	position: relative;
+	color: #00a650; /*задаём цвет ссылки*/
+	cursor: pointer;
+}
+
+.underline a:after {
+	display: block;
+	position: absolute;
+	right: 0; /*изменить на right:0;, чтобы изменить направление подчёркивания */
+	width: 0%;/*задаём длинну линии до наведения курсора*/
+	height: 2px; /*задаём ширину линии*/
+	background-color: #00ffff; /*задаём цвет линии*/
+	content: "";
+	transition: width 0.3s ease-out; /*задаём время анимации*/
+}
+
+.underline a:hover:after,
+.underline a:focus:after {
+    width: 100%;
 }
 
 /*main*/
@@ -65,6 +86,7 @@ body {
 	width: 350px;
 	height: 600px;
 	border: 1px solid #000;
+	position: relative;
 	/*display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -83,6 +105,20 @@ body {
 	top: -170px;
 	transition: .5s;*/
 }
+
+.price {
+	position: absolute;
+    bottom: 0;
+    right: 0;
+    /*z-index: 1;*/
+    color: #999;
+    background: white;
+    padding: 3px;
+    font-family: 'Didact Gothic', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
 
 /*.check {
 	position: absolute;
@@ -117,19 +153,31 @@ body {
 }
 
 .footer > .logo {
+	height: 100px;
 	width: 400px;
 	background-position: 70% 50%;
 } 
 
-.menu-footer ul{
-	display: flex;
-	flex-direction: row;
-
+.menu-footer {
+	padding: 0;
+	margin: 0;
 }
 
-.menu-footer li a{
-	padding: 0 15px;
-	text-decoration: none;
-	text-transform: uppercase;
-	color: pink;
+.menu-footer ul {
+	padding: 0;
+}
+
+.menu-footer li {
+	padding: 0;
+	margin: 0 10px;
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	border: 1px solid white;
+	background: white;
+	border-radius: 50%;
+}
+
+.menu-footer img {
+	
 }
