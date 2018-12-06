@@ -1,0 +1,563 @@
+.WdgMoyklassContent {
+	/*padding: 0!important;*/
+	margin: auto;
+	width: 750px;
+	background: red!important;
+
+}
+
+#WdgMoyklass4116 {
+}
+
+#scheduleQEpIC0uCvtzlLyPLQ23o8t3qr11mAmN5YX > div.wdgMoyklass-h1.p-b-lg {
+	margin: 15px auto 0;
+	width: 350px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Press Start 2P', cursive;
+	text-shadow: 1px 0 0 red;
+	font-size: 18px;
+	font-weight: 400;
+	color: #fff;
+	background-color: #000;
+	padding: 10px 15px!important;
+	-webkit-animation: filter-animation-d .1s infinite;
+}
+
+.wdgMoyklass-course > div.wdgMoyklass-h2.p-y-md.wdgMoyklass-course-title{
+	text-align: center;
+	background: #fff;
+	font-family: 'Play', sans-serif;
+	text-transform: uppercase;
+	text-shadow: 0.5px 0 0 red;
+	font-weight: 700;
+	width: 100px;
+	margin: 15px auto;
+}
+
+.wdgMoyklass-colorDefault {
+	color: #00ffff!important;
+	text-transform: uppercase;
+	font-weight: 700;
+	border: 1px solid #00ffff;
+	padding: 5px 5px;
+}
+
+.wdgMoyklass-course > div.wdgMoyklass-group.row {
+	background: #000!important;
+	border: 1px solid #00ffff;
+	color: #00ffff;
+	width: 700px;
+	margin: 15px auto!important;
+	text-align: justify;
+	font-size: 12px!important;
+	font-family: Play, sans-serif;
+}
+
+.wdgMoyklass-group {
+	display: flex;
+	justify-content: space-between!important;
+	align-items: center!important;
+	margin: auto 0!important;
+}
+
+#scheduleQEpIC0uCvtzlLyPLQ23o8t3qr11mAmN5YXFormValuesContent > 
+div:nth-child(1) > 
+div.wdgMoyklass-group.row > 
+div:nth-child(3) > 
+span,
+#scheduleQEpIC0uCvtzlLyPLQ23o8t3qr11mAmN5YXFormValuesContent > 
+div:nth-child(2) > 
+div.wdgMoyklass-group.row > 
+div:nth-child(3) > 
+span {
+	color: red!important;
+	border-bottom: 1px solid red;
+	padding-bottom: 2px;
+	font-weight: 700;
+	font-family: Play, sans-serif;
+}
+
+#scheduleQEpIC0uCvtzlLyPLQ23o8t3qr11mAmN5YXFormValuesContent > div:nth-child(1) > 
+div.wdgMoyklass-group.row > 
+div.col-md-2.col-sm-3.col-xs-12.m-y-lg > 
+label,
+#scheduleQEpIC0uCvtzlLyPLQ23o8t3qr11mAmN5YXFormValuesContent > 
+div:nth-child(2) > 
+div.wdgMoyklass-group.row > 
+div.col-md-2.col-sm-3.col-xs-12.m-y-lg > 
+label{
+	background-color: red!important;
+	border-radius: 0px!important;
+	color: #fff!important;
+	font-family: 'Play', sans-serif;
+	text-transform: uppercase;
+	text-shadow: 0.5px 0 0 #000;
+	border: 1px solid #fff;
+}  
+
+#scheduleQEpIC0uCvtzlLyPLQ23o8t3qr11mAmN5YXFormValuesContent > 
+div:nth-child(1) > 
+div.wdgMoyklass-group.row > 
+div.col-md-6.col-sm-5.col-xs-12.m-y-lg,
+#scheduleQEpIC0uCvtzlLyPLQ23o8t3qr11mAmN5YXFormValuesContent > 
+div:nth-child(2) > 
+div.wdgMoyklass-group.row > 
+div.col-md-6.col-sm-5.col-xs-12.m-y-lg {
+	display: flex;
+	justify-content: space-between!important;
+	flex-direction: column;
+	margin: 35px 0 20px 20px!important;
+	padding: 0;
+}
+
+.wdgMoyklass-scheduleLessonsMini-item {
+	background-color: #00ffff!important;
+	color: #000!important;
+	font-family: 'Play', sans-serif;
+}
+
+#scheduleQEpIC0uCvtzlLyPLQ23o8t3qr11mAmN5YX > 
+div.m-t-md.wdgMoyklassForm-company_link.scheduleQEpIC0uCvtzlLyPLQ23o8t3qr11mAmN5YXForm-item,
+#scheduleQEpIC0uCvtzlLyPLQ23o8t3qr11mAmN5YXFormValuesContent > 
+div:nth-child(2) > 
+div.wdgMoyklass-group.row > div.col-md-2.col-sm-2.col-xs-12.m-y-lg.wdgMoyklass-font-light.wdgMoyklass-color.hidden-xs,
+#scheduleQEpIC0uCvtzlLyPLQ23o8t3qr11mAmN5YXFormValuesContent > 
+div:nth-child(1) > div.wdgMoyklass-group.row > 
+div.col-md-2.col-sm-2.col-xs-12.m-y-lg.wdgMoyklass-font-light.wdgMoyklass-color.hidden-xs,
+.wdgMoyklass-price_comment,
+.wdgMoyklass-scheduleLessonsMini > span {
+	display: none!important;
+}
+
+.wdgMoyklass-btn {
+	margin-left: 5px!important;
+}
+
+
+/*MODAL*/
+.WdgMoyklassModalItem-dialog {
+	height: 700px;
+	width: 600px;
+}
+.WdgMoyklassModalItem-body {
+	background: #000!important;
+	color: #000!important;
+	font-family: Play, sans-serif;
+	border: 1px solid red;
+	box-shadow: 60px 60px 400px #000;	
+	margin: auto;
+}
+.WdgMoyklassclose {
+	color: red!important;
+	opacity: 1!important;
+}
+
+.wdgMoyklassForm-lessons-selector {
+	overflow: hidden!important;
+	border: 1px solid #000!important;
+	
+}
+.WdgMoyklassModalItem-content {
+	background: none!important;
+}
+
+#scheduleQEpIC0uCvtzlLyPLQ23o8t3qr11mAmN5YXFormname,
+#scheduleQEpIC0uCvtzlLyPLQ23o8t3qr11mAmN5YXFormphone,
+#scheduleQEpIC0uCvtzlLyPLQ23o8t3qr11mAmN5YXForm-1,
+#scheduleQEpIC0uCvtzlLyPLQ23o8t3qr11mAmN5YXForm18,
+#scheduleQEpIC0uCvtzlLyPLQ23o8t3qr11mAmN5YXFormComment {
+	border: 1px solid #000!important;
+}
+
+#scheduleQEpIC0uCvtzlLyPLQ23o8t3qr11mAmN5YXFormname,
+#scheduleQEpIC0uCvtzlLyPLQ23o8t3qr11mAmN5YXFormComment {
+	color: #000;
+}
+
+.FormLessonsContent-count {
+	color: #00ffff;
+}
+#scheduleQEpIC0uCvtzlLyPLQ23o8t3qr11mAmN5YXFormLessonsContent > div.FormLessonsContent-count > i {
+	color: #fff!important;
+	background: red;
+	padding: 10px 8px;
+	margin-bottom: 5px;
+}
+
+#scheduleQEpIC0uCvtzlLyPLQ23o8t3qr11mAmN5YXModal > 
+div > div > div > 
+div.wdgMoyklass-h1.text-center.p-b-lg {	
+	background: red!important;
+	width: 200px;
+	height: 40px;
+	margin: 0 auto 15px;
+	padding: 5px 0 0 0;
+	color: #fff;
+	text-shadow: 1px 0 0 #000;
+	font-family: Press Start 2P, cursive;
+	-webkit-animation: filter-animation-d .1s infinite;
+}
+
+.wdgMoyklass-h3 {
+	text-transform: uppercase;
+	font-weight: 700!important;
+	color: #00ffff;
+	margin-bottom: 5px;
+}
+.wdgMoyklass-form-PriceComment {
+	color: #00ffff!important;
+}
+
+.FormLessonsContent-count > span {
+	color: #000;
+}
+
+#scheduleQEpIC0uCvtzlLyPLQ23o8t3qr11mAmN5YXFormLessonsContent > div.FormLessonsContent-count > span {
+	color: #000!important;
+	background: #fff;
+	padding: 1px 6px 1px 5px;
+	text-align: center;
+}
+
+.wdgMoyklassForm-lessons-DayTitle {
+	font-size: 18px;
+}
+
+.wdgMoyklassForm-lessons-selector {
+	background: #000!important;
+	color: #fff;
+}
+
+.wdgMoyklassForm-lessons-item {
+	background: #000!important;
+	color: #fff!important;
+	font-weight: ;
+}
+
+p.fs12.colorTextSchema {
+	background: #000!important;
+	color: #fff!important;
+	font-weight: 700;
+}
+
+div.fs12.lessonPlacesLeft.colorTextSchema {
+	background: #000!important;
+	color: #fff!important;
+	text-align: center;
+}
+
+#scheduleQEpIC0uCvtzlLyPLQ23o8t3qr11mAmN5YXFormphone,
+#scheduleQEpIC0uCvtzlLyPLQ23o8t3qr11mAmN5YXForm-1,
+#scheduleQEpIC0uCvtzlLyPLQ23o8t3qr11mAmN5YXForm18 {
+	color: #000;
+	font-weight: 400!important;
+}
+
+/*CALENDAR*/
+
+#scheduleQEpIC0uCvtzlLyPLQ23o8t3qr11mAmN5YXhello-week {
+	background: #00ffff;	
+}
+
+.FormLessonsContent-calendarFilter {
+	border: 1px solid #000!important;
+}
+
+.hello-week__header {
+	background: #000!important;
+	color: #fff;
+}
+
+.hello-week__week {
+	background: #000!important;
+	color: #fff;
+}
+
+.hello-week__day {
+	background: red!important
+}
+
+#scheduleQEpIC0uCvtzlLyPLQ23o8t3qr11mAmN5YXFormSubmitBtn {
+	background: red!important;
+	border-radius: 0px!important;
+	width: 180px;
+	color: #fff;
+	border: 1px solid #fff;
+	justify-content: center!important;
+	display: flex!important;
+	margin: 0 auto 15px!important;
+	text-transform: uppercase;
+}
+
+.wdgMoyklassForm-consent {
+	color: #fff!important;
+	text-align: right;
+}
+
+.wdgMoyklassForm-company_link,
+.wdgMoyklassForm-company_link a {
+	color: #fff!important;
+	text-align: right;
+}
+
+.WdgMoyklassModal::after {
+	content: " ";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	background: rgba(18, 16, 16, 0.1);
+	opacity: 0;
+	z-index: 2;
+	pointer-events: none;
+
+}
+.WdgMoyklassModal::before {
+	content: " ";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	background: linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.25) 50%), linear-gradient(90deg, rgba(255, 0, 0, 0.06), rgba(0, 255, 0, 0.02), rgba(0, 0, 255, 0.06));
+	z-index: 2;
+	background-size: 100% 2px, 3px 100%;
+	pointer-events: none;
+}
+
+#switch:checked ~ .WdgMoyklassModal::after {
+	animation: flicker 0.15s infinite;
+} 
+
+@keyframes turn-on {
+	0% {
+		transform: scale(1, 0.8) translate3d(0, 0, 0);
+		-webkit-filter: brightness(30);
+		filter: brightness(30);
+		opacity: 1;
+	}
+	3.5% {
+		transform: scale(1, 0.8) translate3d(0, 100%, 0);
+	}
+	3.6% {
+		transform: scale(1, 0.8) translate3d(0, -100%, 0);
+		opacity: 1;
+	}
+	9% {
+		transform: scale(1.3, 0.6) translate3d(0, 100%, 0);
+		-webkit-filter: brightness(30);
+		filter: brightness(30);
+		opacity: 0;
+	}
+	11% {
+		transform: scale(1, 1) translate3d(0, 0, 0);
+		-webkit-filter: contrast(0) brightness(0);
+		filter: contrast(0) brightness(0);
+		opacity: 0;
+	}
+	100% {
+		transform: scale(1, 1) translate3d(0, 0, 0);
+		-webkit-filter: contrast(1) brightness(1.2) saturate(1.3);
+		filter: contrast(1) brightness(1.2) saturate(1.3);
+		opacity: 1;
+	}
+}
+@keyframes turn-off {
+	0% {
+		transform: scale(1, 1.3) translate3d(0, 0, 0);
+		-webkit-filter: brightness(1);
+		filter: brightness(1);
+		opacity: 1;
+	}
+	60% {
+		transform: scale(1.3, 0.001) translate3d(0, 0, 0);
+		-webkit-filter: brightness(10);
+		filter: brightness(10);
+	}
+	100% {
+		animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+		transform: scale(0, 0.0001) translate3d(0, 0, 0);
+		-webkit-filter: brightness(50);
+		filter: brightness(50);
+	}
+}
+
+@media only screen and (max-device-width:800px){
+	#scheduleQEpIC0uCvtzlLyPLQ23o8t3qr11mAmN5YXFormValuesContent > 
+	div:nth-child(1) > 
+	div.wdgMoyklass-group.row >
+	div.col-md-2.col-sm-2.col-xs-12.m-t-md.wdgMoyklass-font-light.wdgMoyklass-color.visible-xs {
+		display: none!important;
+	}
+}
+@media only screen and (max-device-width:800px){
+	#scheduleQEpIC0uCvtzlLyPLQ23o8t3qr11mAmN5YXFormValuesContent > div:nth-child(1) > div.wdgMoyklass-group.row > div:nth-child(4),
+	<div class="col-md-2 col-sm-3 col-xs-12 m-y-lg">
+	<label for="scheduleQEpIC0uCvtzlLyPLQ23o8t3qr11mAmN5YXFormScheduleInput_18715_36112" class="wdgMoyklass-btn wdgMoyklass-h3 col-sm-12 col-xs-7">Запись<div class="hide"><input id="scheduleQEpIC0uCvtzlLyPLQ23o8t3qr11mAmN5YXFormScheduleInput_18715_36112" type="radio" name="values" value="{&quot;courseId&quot;:&quot;18715&quot;, &quot;classId&quot;:&quot;36112&quot;}" onclick="WdgMoyklass['scheduleQEpIC0uCvtzlLyPLQ23o8t3qr11mAmN5YX'].openWidgetModal();"></div></label></div> {
+		width: 400px!important;
+		text-align: center;
+		margin: auto;
+	}
+}
+
+@media only screen and (max-device-width:800px){
+	#scheduleQEpIC0uCvtzlLyPLQ23o8t3qr11mAmN5YX > 
+	div.m-t-md.wdgMoyklassForm-company_link.scheduleQEpIC0uCvtzlLyPLQ23o8t3qr11mAmN5YXForm-item,
+	#scheduleQEpIC0uCvtzlLyPLQ23o8t3qr11mAmN5YXFormValuesContent > 
+	div:nth-child(2) > 
+	div.wdgMoyklass-group.row > div.col-md-2.col-sm-2.col-xs-12.m-y-lg.wdgMoyklass-font-light.wdgMoyklass-color.hidden-xs,
+	#scheduleQEpIC0uCvtzlLyPLQ23o8t3qr11mAmN5YXFormValuesContent > 
+	div:nth-child(1) > div.wdgMoyklass-group.row > 
+	div.col-md-2.col-sm-2.col-xs-12.m-y-lg.wdgMoyklass-font-light.wdgMoyklass-color.hidden-xs,
+	.wdgMoyklass-price_comment,
+	.wdgMoyklass-scheduleLessonsMini > span,
+	#scheduleQEpIC0uCvtzlLyPLQ23o8t3qr11mAmN5YXFormValuesContent > 
+	div:nth-child(2) > div.wdgMoyklass-group.row > 
+	div.col-md-2.col-sm-2.col-xs-12.m-t-md.wdgMoyklass-font-light.wdgMoyklass-color.visible-xs,
+	#scheduleQEpIC0uCvtzlLyPLQ23o8t3qr11mAmN5YXFormValuesContent > 
+	div:nth-child(1) > div.wdgMoyklass-group.row > 
+	div.col-md-2.col-sm-2.col-xs-12.m-t-md.wdgMoyklass-font-light.wdgMoyklass-color.visible-xs {
+		display: none!important;
+	}
+}
+
+/*4000*/
+@media only screen and (max-device-width:800px){
+#scheduleQEpIC0uCvtzlLyPLQ23o8t3qr11mAmN5YXFormValuesContent > 
+div:nth-child(1) > div.wdgMoyklass-group.row > 
+div:nth-child(4) > span,
+#scheduleQEpIC0uCvtzlLyPLQ23o8t3qr11mAmN5YXFormValuesContent > 
+div:nth-child(2) > div.wdgMoyklass-group.row > 
+div:nth-child(4) > span {
+	/*text-align: center;*/
+	color: red!important;
+	border-bottom: 1px solid red;
+	padding-bottom: 2px;
+	font-weight: 700;
+	font-family: Play, sans-serif;
+	width: 350px;
+	/*margin-left: 50px;*/
+}
+}
+
+/*blue text*/
+@media only screen and (max-device-width:800px){
+#scheduleQEpIC0uCvtzlLyPLQ23o8t3qr11mAmN5YXFormValuesContent > 
+div:nth-child(1) > 
+div.wdgMoyklass-group.row > 
+div.col-md-6.col-sm-5.col-xs-12.m-y-lg,
+#scheduleQEpIC0uCvtzlLyPLQ23o8t3qr11mAmN5YXFormValuesContent > 
+div:nth-child(2) > 
+div.wdgMoyklass-group.row > 
+div.col-md-6.col-sm-5.col-xs-12.m-y-lg {
+	/*width: 800px!important;*/
+	margin-right: 40px!important;
+}
+}
+
+/*button*/
+@media only screen and (max-device-width:800px) {
+#scheduleQEpIC0uCvtzlLyPLQ23o8t3qr11mAmN5YXFormValuesContent > 
+div:nth-child(1) > 
+div.wdgMoyklass-group.row > 
+div.col-md-2.col-sm-3.col-xs-12.m-y-lg > label,
+#scheduleQEpIC0uCvtzlLyPLQ23o8t3qr11mAmN5YXFormValuesContent > div:nth-child(2) > 
+div.wdgMoyklass-group.row > 
+div.col-md-2.col-sm-3.col-xs-12.m-y-lg > label {
+	/*margin-left: 50px!important;*/
+}
+}
+
+
+
+/*768*/
+
+
+
+@media only screen and (max-device-width:768px){
+	#scheduleQEpIC0uCvtzlLyPLQ23o8t3qr11mAmN5YX > 
+	div.m-t-md.wdgMoyklassForm-company_link.scheduleQEpIC0uCvtzlLyPLQ23o8t3qr11mAmN5YXForm-item,
+	#scheduleQEpIC0uCvtzlLyPLQ23o8t3qr11mAmN5YXFormValuesContent > 
+	div:nth-child(2) > 
+	div.wdgMoyklass-group.row > div.col-md-2.col-sm-2.col-xs-12.m-y-lg.wdgMoyklass-font-light.wdgMoyklass-color.hidden-xs,
+	#scheduleQEpIC0uCvtzlLyPLQ23o8t3qr11mAmN5YXFormValuesContent > 
+	div:nth-child(1) > div.wdgMoyklass-group.row > 
+	div.col-md-2.col-sm-2.col-xs-12.m-y-lg.wdgMoyklass-font-light.wdgMoyklass-color.hidden-xs,
+	.wdgMoyklass-price_comment,
+	.wdgMoyklass-scheduleLessonsMini > span,
+	#scheduleQEpIC0uCvtzlLyPLQ23o8t3qr11mAmN5YXFormValuesContent > 
+	div:nth-child(2) > div.wdgMoyklass-group.row > 
+	div.col-md-2.col-sm-2.col-xs-12.m-t-md.wdgMoyklass-font-light.wdgMoyklass-color.visible-xs,
+	#scheduleQEpIC0uCvtzlLyPLQ23o8t3qr11mAmN5YXFormValuesContent > 
+	div:nth-child(1) > div.wdgMoyklass-group.row > 
+	div.col-md-2.col-sm-2.col-xs-12.m-t-md.wdgMoyklass-font-light.wdgMoyklass-color.visible-xs {
+		display: none!important;
+	}
+}
+
+/*4000*/
+@media only screen and (max-device-width:768px){
+#scheduleQEpIC0uCvtzlLyPLQ23o8t3qr11mAmN5YXFormValuesContent > 
+div:nth-child(1) > div.wdgMoyklass-group.row > 
+div:nth-child(4) > span,
+#scheduleQEpIC0uCvtzlLyPLQ23o8t3qr11mAmN5YXFormValuesContent > 
+div:nth-child(2) > div.wdgMoyklass-group.row > 
+div:nth-child(4) > span {
+	/*text-align: center;*/
+	color: red!important;
+	border-bottom: 1px solid red;
+	padding-bottom: 2px;
+	font-weight: 700;
+	font-family: Play, sans-serif;
+	width: 350px;
+	margin-left: 40px;
+}
+}
+
+/*blue text*/
+@media only screen and (max-device-width:768px){
+#scheduleQEpIC0uCvtzlLyPLQ23o8t3qr11mAmN5YXFormValuesContent > 
+div:nth-child(1) > 
+div.wdgMoyklass-group.row > 
+div.col-md-6.col-sm-5.col-xs-12.m-y-lg,
+#scheduleQEpIC0uCvtzlLyPLQ23o8t3qr11mAmN5YXFormValuesContent > 
+div:nth-child(2) > 
+div.wdgMoyklass-group.row > 
+div.col-md-6.col-sm-5.col-xs-12.m-y-lg {
+	width: 1200px!important;
+	/*margin-right: 40px!important;*/
+}
+}
+
+/*button*/
+@media only screen and (max-device-width:768px) {
+#scheduleQEpIC0uCvtzlLyPLQ23o8t3qr11mAmN5YXFormValuesContent > 
+div:nth-child(1) > 
+div.wdgMoyklass-group.row > 
+div.col-md-2.col-sm-3.col-xs-12.m-y-lg > label,
+#scheduleQEpIC0uCvtzlLyPLQ23o8t3qr11mAmN5YXFormValuesContent > div:nth-child(2) > 
+div.wdgMoyklass-group.row > 
+div.col-md-2.col-sm-3.col-xs-12.m-y-lg > label {
+	margin-left: 20px!important;
+}
+}
+
+@media only screen and (max-device-width:768px) {
+#scheduleQEpIC0uCvtzlLyPLQ23o8t3qr11mAmN5YXFormValuesContent > 
+div:nth-child(1) > div.wdgMoyklass-group.row > 
+div.col-md-6.col-sm-5.col-xs-12.m-y-lg > 
+div.wdgMoyklass-scheduleLessonsMini > div > 
+div,
+#scheduleQEpIC0uCvtzlLyPLQ23o8t3qr11mAmN5YXFormValuesContent > 
+div:nth-child(2) > div.wdgMoyklass-group.row > 
+div.col-md-6.col-sm-5.col-xs-12.m-y-lg > 
+div.wdgMoyklass-scheduleLessonsMini > div > 
+div{
+	padding: 2px 3px;
+}
+}

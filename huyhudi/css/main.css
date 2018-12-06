@@ -1,0 +1,83 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.header-main {
+	display: flex;
+	position: relative;
+	justify-content: space-around;
+	align-items: center;
+	height: 100px;
+	background: #000;
+}
+
+.logo {	
+	height: 100px;
+	width: 500px;
+	background: url(../img/coollogo_com-89901585.png) no-repeat;
+	-webkit-background-size: 60%;
+	background-position: 0% 50%;
+	background-size: 60%;
+	background-position: -20% 50%;
+}
+
+.menu ul {	
+	display: flex;
+	flex-direction: row;
+}
+
+.menu li a{
+	padding: 0 15px;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: pink;
+}
+
+.main-block {
+	margin:  30px auto 0;
+	display: flex;
+	width: 1400px;
+	height: 700px;
+	border: 1px solid #000;
+}
+
+.main-items {
+	padding: 30px;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.item {
+	margin-bottom: 30px;
+	width: 500px;
+	height: 300px;
+	border: 1px solid #000;
+}
+
+.footer {
+	height: 100px;
+	background: #000;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.footer > .logo {
+	width: 400px;
+	background-position: 70% 50%;
+} 
+
+.menu-footer ul{
+	display: flex;
+	flex-direction: row;
+
+}
+
+.menu-footer li a{
+	padding: 0 15px;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: pink;
+}
