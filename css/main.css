@@ -12,9 +12,17 @@ body {
 	align-items: center;
 	height: 100px;
 	background: #000;
+	border-bottom: 1px solid #024059;
+}
+
+.logo {
+	display: flex;
+	align-items: center;
 }
 
 .logo h2{
+	margin: 0;
+	align-items: center;
 	text-transform: uppercase;
 	font-family: 'Caveat', cursive;
 	color: #fff;
@@ -27,7 +35,7 @@ body {
 }
 
 .menu li a{
-	margin: 0 15px;
+	margin: 0 15px 5px;
 	text-decoration: none;
 	/*text-transform: uppercase;*/
 	color: #fff;
@@ -37,7 +45,6 @@ body {
 
 .underline a {
 	position: relative;
-	color: #00a650; /*задаём цвет ссылки*/
 	cursor: pointer;
 }
 
@@ -45,9 +52,10 @@ body {
 	display: block;
 	position: absolute;
 	right: 0; /*изменить на right:0;, чтобы изменить направление подчёркивания */
+	bottom: -5px;
 	width: 0%;/*задаём длинну линии до наведения курсора*/
 	height: 2px; /*задаём ширину линии*/
-	background-color: #00ffff; /*задаём цвет линии*/
+	background-color: #024059; /*задаём цвет линии*/
 	content: "";
 	transition: width 0.3s ease-out; /*задаём время анимации*/
 }
@@ -60,14 +68,14 @@ body {
 /*main*/
 
 .main-block {
-	margin:  30px auto 0;
+	margin: 30px auto;
 	display: flex;
-	width: 1400px;
 	height: 700px;
-	border: 1px solid #000;
-	background: url() no-repeat;
-	-webkit-background-size: cover;
-	background-size: cover;
+	width: 1350px;
+}
+.center-img {
+	position: absolute; 
+	top: -190px!important;
 }
 
 /*items*/
@@ -75,7 +83,7 @@ body {
 .main-items {
 	width: 1200px;
 	margin: auto;
-	padding: 30px;
+	/*padding: 30px;*/
 	display: flex;
 	justify-content: space-around;
 	flex-wrap: wrap;
@@ -85,7 +93,7 @@ body {
 	margin-bottom: 30px;
 	width: 350px;
 	height: 600px;
-	border: 1px solid #000;
+	border: 1px solid #024059;
 	position: relative;
 	/*display: flex;
 	justify-content: space-between;
@@ -96,14 +104,63 @@ body {
 .item1 {
 	width: 350px;
 	height: 600px;
-	background: url(../img/8990148-1-black.jpg);
-	/*background: url(../img/hoodie1.png) no-repeat;
-	-webkit-background-size: cover;
-	background-size: cover;
-	position: relative;
-	left: 60%;
-	top: -170px;
-	transition: .5s;*/
+	background: url(../img/8990148-1-black.png);
+	background-position: 50% 0;
+}
+
+.item2 {
+	width: 350px;
+	height: 600px;
+	background: url(../img/10332539-1-rosewine.png);
+	background-position: 30% 0;
+}
+
+.item3 {
+	width: 350px;
+	height: 600px;
+	background: url(../img/10506664-1-greymarl.png);
+	background-position: 70% 0;
+}
+.item4 {
+	width: 350px;
+	height: 600px;
+	background: url(../img/10332541-1-arrowwood.png) no-repeat;
+	background-position: 30% 0;
+}
+
+.item5 {
+	width: 350px;
+	height: 600px;
+	background: url(../img/11042602-4.png) no-repeat;
+	background-position: 30% 0;
+}
+
+.item6 {
+	width: 350px;
+	height: 600px;
+	background: url(../img/10775349-2.png) no-repeat;
+	background-position: 100%;
+}
+
+.item7 {
+	width: 350px;
+	height: 600px;
+	background: url(../img/9855901-1-mousakka.png) no-repeat;
+	background-position: 60% 0%;
+}
+
+.item8 {
+	width: 350px;
+	height: 600px;
+	background: url(../img/9728044-1-white.png) no-repeat;
+	background-position: 100%;
+}
+
+.item9 {
+	width: 350px;
+	height: 600px;
+	background: url(../img/9990049-1-orionblue.png) no-repeat;
+	background-position: 40%;
 }
 
 .price {
@@ -152,7 +209,7 @@ body {
 	align-items: center;
 }
 
-.footer > .logo {
+.footer .logo {
 	height: 100px;
 	width: 400px;
 	background-position: 70% 50%;
