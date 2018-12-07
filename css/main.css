@@ -7,7 +7,36 @@ body {
 	margin: auto;
 	/*width: 100%;*/
 }
+
+h2.effect-shine {
+	-webkit-mask-image: linear-gradient(-75deg, rgba(0,0,0,.6) 30%, #000 50%, rgba(0,0,0,.6) 70%);
+	-webkit-mask-size: 200%;
+	animation: shine 5s infinite;
+	width: 180px; 
+}
+
+.h2 {
+	text-decoration: none;
+	margin: auto;
+	display: inline-block;
+	position: relative;
+	color: white;
+
+}
+
+@-webkit-keyframes shine {
+	from {
+		-webkit-mask-position: 150%;
+	}
+
+	to {
+		-webkit-mask-position: -50%;
+	}
+}
+
+
 /*header*/
+
 
 .header-main {
 	display: flex;
@@ -15,7 +44,7 @@ body {
 	justify-content: space-around;
 	align-items: center;
 	height: 100px;
-	background: #000;
+	background: #606053;
 	border-bottom: 1px solid #024059;
 }
 
@@ -37,10 +66,12 @@ body {
 	display: flex;
 	flex-direction: row;
 }
-
+.menu li {
+	list-style: none;
+}
 .menu li a{
 	margin: 0 15px 5px;
-	text-decoration: none;
+	text-decoration: none;	
 	/*text-transform: uppercase;*/
 	color: #fff;
 	font-family: 'Didact Gothic', sans-serif;
@@ -59,14 +90,14 @@ body {
 	bottom: -5px;
 	width: 0%;/*задаём длинну линии до наведения курсора*/
 	height: 2px; /*задаём ширину линии*/
-	background-color: #024059; /*задаём цвет линии*/
+	background-color: white; /*задаём цвет линии*/
 	content: "";
 	transition: width 0.3s ease-out; /*задаём время анимации*/
 }
 
 .underline a:hover:after,
 .underline a:focus:after {
-    width: 100%;
+	width: 100%;
 }
 
 /*main*/
@@ -170,45 +201,227 @@ body {
 
 .price {
 	position: absolute;
-    bottom: 0;
-    right: 0;
-    /*z-index: 1;*/
-    color: #999;
-    background: white;
-    padding: 3px;
-    font-family: 'Didact Gothic', sans-serif;
-    text-transform: uppercase;
-    font-weight: bold;
+	bottom: 0;
+	right: 0;
+	/*z-index: 1;*/
+	color: white;
+	background: #00000061;
+	padding: 5px 10px;
+	font-family: 'Didact Gothic', sans-serif;
+	text-transform: uppercase;
 }
 
 
-/*.check {
-	position: absolute;
-	left: 40px;
-	top: 30%;
+/*delivery*/
+
+.header-delivery {
+	height: 100px;
+	background: #606053;
+}
+
+.header-delivery h2 {
+	font-family: 'Caveat', cursive;
+	text-transform: uppercase;
+	font-size: 36px;	
+	color: white;
+	text-align: center;	
+	line-height: 100px;
+	margin: auto;
+}
+
+.delivery-main {
+	margin: 30px auto;
+	display: flex;
+	justify-content: center;
+}
+
+.delivery-img {
+	background: url(../img/lorry1.png);
+	background-repeat: no-repeat;
+	-webkit-background-size: 100px;
+	background-size: 320px;
+	width: 800px;
+	height: 500px;
+	background-position: 50% 50%;
+}
+
+.delivery-text {
+	width: 800px;
+	/*margin-right: 40px;*/
+}
+
+.delivery-text h2 {
+	font-family: 'Didact Gothic', sans-serif;
+	text-transform: uppercase;
+}
+
+.delivery-text p {
+	font-family: 'Didact Gothic', sans-serif;
+}
+
+.delivery-text ul {
+	padding: 0;
+}
+
+.delivery-text li {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	font-family: 'Didact Gothic', sans-serif;
+}
+
+/*contact*/
+
+.contact {
+	
+}
+.header-contact {
+	height: 100px;
+	background: #606053;
+}
+
+.header-contact h2 {
+	font-family: 'Caveat', cursive;
+	text-transform: uppercase;
+	font-size: 36px;
+	color: white;
+	text-align: center;	
+	line-height: 100px;
+	margin: auto;
+}
+
+.contact-block {
+	height: 100%;	
+	position: relative;
+	overflow: hidden;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.contact-text h2 {
+	font-family: 'Didact Gothic', sans-serif;
+	text-transform: uppercase;
+}
+
+.contact-text span {
+	font-family: 'Didact Gothic', sans-serif;
+	padding: 2px 0; 
+}
+.contact-form {
+	position: relative;
+}
+.contact-form h3{
+	font-family: 'Didact Gothic', sans-serif;
+	text-transform: uppercase;
+}
+/*form*/
+
+@-webkit-keyframes myfirst
+{
+	0% {margin-left: -100%}
+	90% {margin-left: 50%;}
+	100% {margin-left: 100%;}
+}
+
+/* Animation */
+@keyframes myfirst
+{
+	0% {margin-left: -100%}
+	70% {margin-left: 50%;}
+	100% {margin-left: 100%;}
+}
+
+
+.dick{
+	background: url(../img/dick-1.png) no-repeat;
+	width: 235px;
+	height: 200px;
+	margin-left: -100%;
+	position: absolute;	
+	animation: myfirst 36s;
+	-webkit-animation: myfirst 36s;
+	animation-iteration-count: infinite;
+	-webkit-animation-iteration-count: infinite;
+	animation-timing-function: linear;
+	-webkit-animation-timing-function: linear;
+}
+
+#dick{
+	top: 80px;
+}
+
+#dick2{
+	top: 360px;
+	animation-delay: 12s;
+	-webkit-animation-delay: 12s;
 }
 
 
 
-#chlen2:checked ~ .item1{
-	background: url(../img/hoodie2.png) no-repeat;
-	width: 280px;
-	height: 300px;
-	-webkit-background-size: cover;
-	background-size: cover;
+
+
+
+
+
+
+
+form { 
+	max-width:420px;
+	margin:50px; 
 }
 
-#chlen3:checked ~ .item1{
-	background: url(../img/hoodie3.png) no-repeat;
-	width: 280px;
-	height: 300px;
-	-webkit-background-size: cover;
-	background-size: cover;
-}*/
+.feedback-input {
+	color: #000;
+	font-family: 'Didact', sans-serif;
+	font-weight:500;
+	font-size: 18px;
+	border-radius: 5px;
+	line-height: 22px;
+	background-color: transparent;
+	border: 1px solid #606053;
+	transition: all 0.3s;
+	padding: 13px;
+	margin-bottom: 15px;
+	width:100%;
+	box-sizing: border-box;
+	outline:0;
+}
 
+.feedback-input:focus { border:1px solid red; }
+
+textarea {
+	height: 150px;
+	line-height: 150%;
+	resize:vertical;
+}
+
+[type="submit"] {
+	font-family: 'Didact', sans-serif;
+	width: 100%;
+	background: #c3c2b0;
+	border-radius:5px;
+	border:0;
+	cursor:pointer;
+	color: #4c4c4c;
+	font-size:24px;
+	padding-top:10px;
+	padding-bottom:10px;
+	transition: all 0.3s;
+	margin-top:-4px;
+	font-weight:700;
+}
+[type="submit"]:hover { 
+	background:#606053; 
+	color: white;
+}
+
+
+
+/*footer*/
 .footer {
 	height: 100px;
-	background: #000;
+	background: #606053;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -245,8 +458,8 @@ body {
 }
 
 @media screen and (max-width: 1349px) {
-  .container {
-    width:  1349px;
-     margin: 0 auto;
-}
+	.container {
+		width:  1349px;
+		margin: 0 auto;
+	}
 }
