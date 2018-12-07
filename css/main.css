@@ -8,6 +8,9 @@ body {
 	/*width: 100%;*/
 }
 
+
+/*shine*/
+
 h2.effect-shine {
 	-webkit-mask-image: linear-gradient(-75deg, rgba(0,0,0,.6) 30%, #000 50%, rgba(0,0,0,.6) 70%);
 	-webkit-mask-size: 200%;
@@ -34,6 +37,32 @@ h2.effect-shine {
 	}
 }
 
+/*input.effect-shine {
+	-webkit-mask-image: linear-gradient(-75deg, rgba(0,0,0,.6) 30%, #000 50%, rgba(0,0,0,.6) 70%);
+	-webkit-mask-size: 200%;
+	animation: shine 5s infinite;
+	width: 180px; 
+}
+
+.input {
+	text-decoration: none;
+	margin: auto;
+	display: inline-block;
+	position: relative;
+	color: white;
+
+}
+
+@-webkit-keyframes shine {
+	from {
+		-webkit-mask-position: 150%;
+	}
+
+	to {
+		-webkit-mask-position: -50%;
+	}
+}
+*/
 
 /*header*/
 
@@ -357,15 +386,6 @@ h2.effect-shine {
 	-webkit-animation-delay: 12s;
 }
 
-
-
-
-
-
-
-
-
-
 form { 
 	max-width:420px;
 	margin:50px; 
@@ -389,7 +409,7 @@ form {
 	background: white;
 }
 
-.feedback-input:focus { border:1px solid red; }
+.feedback-input:focus { border:1px solid blue; }
 
 textarea {
 	height: 150px;
@@ -405,13 +425,14 @@ textarea {
 	border:0;
 	cursor:pointer;
 	color: #4c4c4c;
-	font-size:24px;
+	font-size: 18px;
 	padding-top:10px;
 	padding-bottom:10px;
 	transition: all 0.3s;
 	margin-top:-4px;
-	font-weight:700;
+	text-transform: uppercase;
 }
+
 [type="submit"]:hover { 
 	background:#606053; 
 	color: white;
@@ -457,6 +478,13 @@ textarea {
 .menu-footer img {
 	
 }
+
+
+
+
+
+
+/*media*/
 
 @media screen and (max-width: 1349px) {
 	.container {
