@@ -8,6 +8,11 @@ body {
 	/*width: 100%;*/
 }
 
+mark {
+	background: none;
+	color: black;
+	font-weight: 700;
+} 
 
 /*shine*/
 
@@ -15,7 +20,7 @@ h2.effect-shine {
 	-webkit-mask-image: linear-gradient(-75deg, rgba(0,0,0,.6) 30%, #000 50%, rgba(0,0,0,.6) 70%);
 	-webkit-mask-size: 200%;
 	animation: shine 5s infinite;
-	width: 180px; 
+	width: 250px; 
 }
 
 .h2 {
@@ -24,7 +29,6 @@ h2.effect-shine {
 	display: inline-block;
 	position: relative;
 	color: white;
-
 }
 
 @-webkit-keyframes shine {
@@ -37,11 +41,11 @@ h2.effect-shine {
 	}
 }
 
-/*input.effect-shine {
-	-webkit-mask-image: linear-gradient(-75deg, rgba(0,0,0,.6) 30%, #000 50%, rgba(0,0,0,.6) 70%);
+input.effect-shine {
+	-webkit-mask-image: linear-gradient(-75deg, rgba(0,0,0,.8) 30%, #000 50%, rgba(0,0,0,.8) 70%);
 	-webkit-mask-size: 200%;
 	animation: shine 5s infinite;
-	width: 180px; 
+	width: 130px; 
 }
 
 .input {
@@ -62,7 +66,7 @@ h2.effect-shine {
 		-webkit-mask-position: -50%;
 	}
 }
-*/
+
 
 /*header*/
 
@@ -119,7 +123,7 @@ h2.effect-shine {
 	bottom: -5px;
 	width: 0%;/*задаём длинну линии до наведения курсора*/
 	height: 2px; /*задаём ширину линии*/
-	background-color: white; /*задаём цвет линии*/
+	background-color: black; /*задаём цвет линии*/
 	content: "";
 	transition: width 0.3s ease-out; /*задаём время анимации*/
 }
@@ -256,27 +260,84 @@ h2.effect-shine {
 	text-align: center;	
 	line-height: 100px;
 	margin: auto;
+	-moz-user-select: none;
+	-khtml-user-select: none;
+	user-select: none;  
+
 }
 
 .delivery-main {
 	margin: 30px auto;
 	display: flex;
 	justify-content: center;
+	/*position: relative;*/
+	overflow: hidden;
+	height: 600px;
 }
 
-.delivery-img {
-	background: url(../img/lorry1.png);
+/*.delivery-img {
+	background: url();
 	background-repeat: no-repeat;
 	-webkit-background-size: 100px;
 	background-size: 320px;
 	width: 800px;
 	height: 500px;
 	background-position: 50% 50%;
+	display: flex;
+}*/
+
+
+
+
+
+ @-webkit-keyframes mysecond
+{
+	0% {margin-left: -100%}
+	100% {margin-left: -40%;
+		opacity: 1}
+} 
+
+/* Animation */
+@keyframes mysecond
+{
+	0% {margin-left: -100%}
+/* 	40% {margin-left: 10%;} */
+	100% {margin-left: -40%;
+		opacity: 1}
 }
+
+.delivery-img {
+	opacity: 0;
+	/*overflow: hidden;*/
+	background: url(../img/lorry1.png) no-repeat;
+	width: 320px;
+	height: 225px;
+	margin-left: -40%;
+	position: relative;		
+	background-size: 320px;
+	/*animation: mysecond 1.5s;*/
+	/*-webkit-animation: mysecond 1.5s;*/
+/* 	animation-iteration-count: infinite;
+	-webkit-animation-iteration-count: infinite;
+	animation-timing-function: linear;
+	-webkit-animation-timing-function: linear; */
+}
+
+#delivery-img{
+	top: 150px;
+}
+
+.delivery-img.animate {
+    animation: mysecond 1.5s infinite;
+    -webkit-animation: mysecond 1.5s;
+}
+
+
 
 .delivery-text {
 	width: 800px;
-	/*margin-right: 40px;*/
+	position: absolute;
+	margin-left: 15%;
 }
 
 .delivery-text h2 {
@@ -317,6 +378,10 @@ h2.effect-shine {
 	text-align: center;	
 	line-height: 100px;
 	margin: auto;
+	-moz-user-select: none;
+	-khtml-user-select: none;
+	user-select: none;  
+
 }
 
 .contact-block {
@@ -334,9 +399,11 @@ h2.effect-shine {
 }
 
 .contact-text span {
-	font-family: 'Didact Gothic', sans-serif;
-	padding: 2px 0; 
+	font-family: 'Didact Gothic', sans-serif; 
+	border-left: 1px solid black;
+	padding-left: 8px;
 }
+
 .contact-form {
 	position: relative;
 }
@@ -361,7 +428,6 @@ h2.effect-shine {
 	100% {margin-left: 100%;}
 }
 
-
 .dick{
 	background: url(../img/dick-1.png) no-repeat;
 	width: 235px;
@@ -374,6 +440,7 @@ h2.effect-shine {
 	-webkit-animation-iteration-count: infinite;
 	animation-timing-function: linear;
 	-webkit-animation-timing-function: linear;
+	opacity: 0.3;
 }
 
 #dick{
@@ -409,7 +476,7 @@ form {
 	background: white;
 }
 
-.feedback-input:focus { border:1px solid blue; }
+.feedback-input:focus { border:1px solid black; }
 
 textarea {
 	height: 150px;
@@ -419,7 +486,7 @@ textarea {
 
 [type="submit"] {
 	font-family: 'Didact', sans-serif;
-	width: 100%;
+	/*width: 100%;*/
 	background: #c3c2b0;
 	border-radius:5px;
 	border:0;
@@ -468,18 +535,12 @@ textarea {
 	padding: 0;
 	margin: 0 10px;
 	display: inline-block;
-	width: 50px;
-	height: 50px;
+	width: 35px;
+	height: 35px;
 	border: 1px solid white;
 	background: white;
 	border-radius: 50%;
 }
-
-.menu-footer img {
-	
-}
-
-
 
 
 
