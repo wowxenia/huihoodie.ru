@@ -278,12 +278,12 @@ input.effect-shine {
 }
 
 .delivery-main {
-	margin: 30px auto 50px;
+	margin: 30px auto;
 	display: flex;
 	justify-content: center;
 	position: relative;
 	overflow: hidden;
-	height: 600px;
+	height: 535px;
 }
 
 
@@ -335,6 +335,10 @@ input.effect-shine {
 .delivery-text h2 {
 	font-family: 'Didact Gothic', sans-serif;
 	text-transform: uppercase;
+	background-color: #86867c87;
+	width: 135px;
+    text-align: center;
+    padding: 2px;
 }
 
 .delivery-text p {
@@ -403,6 +407,7 @@ input.effect-shine {
 	font-family: 'Didact Gothic', sans-serif;
 	text-transform: uppercase;
 }
+
 /*form*/
 
 @-webkit-keyframes myfirst
@@ -420,27 +425,51 @@ input.effect-shine {
 	100% {margin-left: 100%;}
 }
 
+@-webkit-keyframes filter-animation {
+	0% {
+		-webkit-filter: hue-rotate(0deg) ;
+	}
+
+	25% {
+		-webkit-filter: hue-rotate(90deg);
+	}
+
+	50% {
+		-webkit-filter: hue-rotate(180deg);
+	}
+
+	75% {
+		-webkit-filter: hue-rotate(270deg);
+	}
+
+	100% {
+		-webkit-filter: hue-rotate(360deg);
+	}
+}
+
 .dick{
-	background: url(../img/dick-1.png) no-repeat;
+	background: url(../img/dick-1.svg) no-repeat;
 	width: 235px;
 	height: 200px;
 	margin-left: -60%;
 	position: absolute;	
-	animation: myfirst 36s;
-	-webkit-animation: myfirst 36s;
+	animation: myfirst 36s, filter-animation 1s infinite;
+	-webkit-animation: myfirst 36s, filter-animation 1s infinite;
 	animation-iteration-count: infinite;
 	-webkit-animation-iteration-count: infinite;
 	animation-timing-function: linear;
 	-webkit-animation-timing-function: linear;
-	opacity: 0.3;
+	/*opacity: 0.3;*/
 }
+
+
 
 #dick{
 	top: 80px;
 }
 
 #dick2{
-	top: 360px;
+	top: 420px;
 	animation-delay: 12s;
 	-webkit-animation-delay: 12s;
 }
@@ -524,16 +553,20 @@ textarea {
 }
 
 .menu-footer li {
-	padding: 0;
+	padding: 5px;
 	margin: 0 10px;
 	display: inline-block;
-	width: 35px;
-	height: 35px;
-	border: 1px solid white;
+	width: 30px;
+	height: 30px;
 	background: white;
-	border-radius: 50%;
+	cursor: pointer;
+	transition: ease-in-out .3s;
+	opacity: .4;
 }
 
-
-
+.menu-footer li:hover {
+	background: white;
+	transition: .3s;
+	opacity: .8;
+}
 
