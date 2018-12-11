@@ -1,7 +1,11 @@
 body {
 	margin: 0;
 	padding: 0;
+	background: url(../img/pattern1.svg);
+	-webkit-background-size: 20%;
+	background-size: .7%;
 }
+
 
 .container {
 	margin: auto;
@@ -72,13 +76,14 @@ input.effect-shine {
 
 
 .header-main {
+	margin: 0;
 	display: flex;
 	/*position: relative;*/
 	justify-content: space-around;
 	align-items: center;
 	height: 100px;
 	background: #606053;
-	border-bottom: 1px solid #024059;
+	border-bottom: 3px solid black;
 }
 
 .logo {
@@ -94,44 +99,49 @@ input.effect-shine {
 	color: #fff;
 	font-size: 40px;	
 }
+.map {
+	display: flex;	
+}
 
+.map img {
+	width: 20px;
+}
+
+.map p {
+	line-height: 100;
+	padding-left: 5px;
+	font-family: 'Didact Gothic', sans-serif;
+	color: white;
+
+}
 .menu ul {	
 	display: flex;
 	flex-direction: row;
 }
 .menu li {
 	list-style: none;
+	background: #86867c87;
+	margin: 0 10px;
+	padding: 8px 15px;
+	cursor: pointer;
+	transition: .3s ease-in-out;
 }
+
+.menu li:hover {
+	background: #86867C;
+	transition: .3s;
+}
+
 .menu li a{
-	margin: 0 15px 5px;
+	
 	text-decoration: none;	
 	/*text-transform: uppercase;*/
 	color: #fff;
 	font-family: 'Didact Gothic', sans-serif;
-	font-size: 20px;
+	font-size: 24px;
 }
 
-.underline a {
-	position: relative;
-	cursor: pointer;
-}
 
-.underline a:after {
-	display: block;
-	position: absolute;
-	right: 0; /*изменить на right:0;, чтобы изменить направление подчёркивания */
-	bottom: -5px;
-	width: 0%;/*задаём длинну линии до наведения курсора*/
-	height: 2px; /*задаём ширину линии*/
-	background-color: black; /*задаём цвет линии*/
-	content: "";
-	transition: width 0.3s ease-out; /*задаём время анимации*/
-}
-
-.underline a:hover:after,
-.underline a:focus:after {
-	width: 100%;
-}
 
 /*main*/
 
@@ -140,6 +150,7 @@ input.effect-shine {
 	display: flex;
 	height: 700px;
 	width: 1350px;
+	border: 3px solid black;
 }
 
 .center-img {
@@ -162,7 +173,7 @@ input.effect-shine {
 	margin-bottom: 30px;
 	width: 350px;
 	height: 600px;
-	border: 1px solid #024059;
+	border: 3px solid black;
 	position: relative;
 	/*display: flex;
 	justify-content: space-between;
@@ -267,77 +278,58 @@ input.effect-shine {
 }
 
 .delivery-main {
-	margin: 30px auto;
+	margin: 30px auto 50px;
 	display: flex;
 	justify-content: center;
-	/*position: relative;*/
+	position: relative;
 	overflow: hidden;
 	height: 600px;
 }
 
-/*.delivery-img {
-	background: url();
-	background-repeat: no-repeat;
-	-webkit-background-size: 100px;
-	background-size: 320px;
-	width: 800px;
-	height: 500px;
-	background-position: 50% 50%;
-	display: flex;
-}*/
 
-
-
-
-
- @-webkit-keyframes mysecond
+@-webkit-keyframes mysecond 
 {
 	0% {margin-left: -100%}
-	100% {margin-left: -40%;
-		opacity: 1}
-} 
+	100% {margin-left: -45%;
+	opacity: 1}
+}
 
 /* Animation */
 @keyframes mysecond
 {
 	0% {margin-left: -100%}
-/* 	40% {margin-left: 10%;} */
-	100% {margin-left: -40%;
+	/* 	40% {margin-left: 10%;} */
+	100% {margin-left: -45%;
 		opacity: 1}
-}
+	}
 
 .delivery-img {
 	opacity: 0;
+	display: flex;
 	/*overflow: hidden;*/
 	background: url(../img/lorry1.png) no-repeat;
 	width: 320px;
 	height: 225px;
-	margin-left: -40%;
+	margin-left: -45%;
 	position: relative;		
 	background-size: 320px;
-	/*animation: mysecond 1.5s;*/
-	/*-webkit-animation: mysecond 1.5s;*/
-/* 	animation-iteration-count: infinite;
-	-webkit-animation-iteration-count: infinite;
-	animation-timing-function: linear;
-	-webkit-animation-timing-function: linear; */
 }
 
 #delivery-img{
-	top: 150px;
+	top: 190px;
 }
 
 .delivery-img.animate {
-    animation: mysecond 1.5s infinite;
-    -webkit-animation: mysecond 1.5s;
+	animation: mysecond 1.5s infinite;
+	-webkit-animation: mysecond 1.5s;
 }
 
-
-
 .delivery-text {
-	width: 800px;
+	width: 850px;
+	top: 0;
+	right: 5%;
 	position: absolute;
-	margin-left: 15%;
+	/*margin-left: 15%;*/
 }
 
 .delivery-text h2 {
@@ -545,11 +537,3 @@ textarea {
 
 
 
-/*media*/
-
-@media screen and (max-width: 1349px) {
-	.container {
-		width:  1349px;
-		margin: 0 auto;
-	}
-}

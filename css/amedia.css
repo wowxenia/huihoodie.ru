@@ -1,0 +1,26 @@
+/*media*/
+
+@media screen and (max-width: 1349px) {
+	.container {
+		width:  1349px;
+		margin: 0 auto;
+	}
+}
+
+@media screen and (max-width: 1680px) {
+	.delivery-text {
+		width: 750px;
+	}
+}
+
+@media screen and (max-width: 1680px) {
+	.delivery-text {
+		width: 650px;
+	}
+}
+
+@media screen and (max-width: 1280px) {
+	.delivery-text {
+		width: 600px;
+	}
+}
