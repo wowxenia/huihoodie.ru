@@ -132,13 +132,12 @@ input.effect-shine {
 	transition: .3s;
 }
 
-.menu li a{
-	
+.menu li a{	
 	text-decoration: none;	
 	/*text-transform: uppercase;*/
 	color: #fff;
 	font-family: 'Didact Gothic', sans-serif;
-	font-size: 24px;
+	font-size: 20px;
 }
 
 
@@ -155,7 +154,7 @@ input.effect-shine {
 
 .center-img {
 	position: absolute; 
-	top: -190px!important;
+	/*top: -190px!important;*/
 }
 
 /*items*/
@@ -261,6 +260,8 @@ input.effect-shine {
 .header-delivery {
 	height: 100px;
 	background: #606053;
+	border-top: 3px solid black;
+	border-bottom: 3px solid black;
 }
 
 .header-delivery h2 {
@@ -364,6 +365,8 @@ input.effect-shine {
 .header-contact {
 	height: 100px;
 	background: #606053;
+	border-top: 3px solid black;
+	border-bottom: 3px solid black;
 }
 
 .header-contact h2 {
@@ -535,6 +538,7 @@ textarea {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	border-top: 3px solid black;
 }
 
 .footer .logo {
