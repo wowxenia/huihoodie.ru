@@ -9,18 +9,18 @@
 
 @media screen and (max-width: 1680px) {
 	.delivery-text {
-		width: 750px;
-	}
-}
-
-@media screen and (max-width: 1680px) {
-	.delivery-text {
 		width: 650px;
+	}
+	.delivery-main {
+		height: 640px;
 	}
 }
 
 @media screen and (max-width: 1280px) {
 	.delivery-text {
 		width: 600px;
+	}
+	.delivery-main {
+		height: 670px;
 	}
 }
