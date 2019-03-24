@@ -4,6 +4,12 @@
 	src: (../fonts/Odudo-Regular.otf);
 }
 
+button, 
+button:active, 
+button:focus {
+    outline: none;
+}
+
 body {
 	margin: 0;
 	padding: 0;
@@ -80,7 +86,7 @@ mark {
 	transition: .3s;
 }
 
-.menu li a{	
+.menu a{	
 	text-decoration: none;	
 	/*text-transform: uppercase;*/
 	color: #da2727;
@@ -205,17 +211,17 @@ mark {
 	text-align: center;
 }
 
-.item1 a.info,
-.item2 a.info,
-.item3 a.info,
-.item4 a.info,
-.item5 a.info,
-.item6 a.info,
-.item7 a.info,
-.item8 a.info,
-.item9 a.info {
+.item1 button.buy,
+.item2 button.buy,
+.item3 button.buy,
+.item4 button.buy,
+.item5 button.buy,
+.item6 button.buy,
+.item7 button.buy,
+.item8 button.buy,
+.item9 button.buy {
 	text-decoration: none;
-	font-family: 'Didact Gothic', sans-serif;
+	border: none;
 	padding: 7px 0;
 	position: absolute;
 	top: 75%;
@@ -225,18 +231,19 @@ mark {
 	color: #fff;
 	text-transform: uppercase;
 	box-shadow: 0 0 1px #000;
+	cursor: pointer;
 }
 
-.item1 a.info:hover,
-.item2 a.info:hover,
-.item3 a.info:hover,
-.item4 a.info:hover,
-.item5 a.info:hover,
-.item6 a.info:hover,
-.item7 a.info:hover,
-.item8 a.info:hover,
-.item9 a.info:hover {
-	box-shadow: 0 0 5px #000;
+.item1 button.buy:hover,
+.item2 button.buy:hover,
+.item3 button.buy:hover,
+.item4 button.buy:hover,
+.item5 button.buy:hover,
+.item6 button.buy:hover,
+.item7 button.buy:hover,
+.item8 button.buy:hover,
+.item9 button.buy:hover {
+	border-bottom: 2px solid white;
 } 
 
 .item-mask .mask {
@@ -676,8 +683,7 @@ textarea::placeholder {
 
 #snow {
     background-color: transparent;
-    background-image: url(../img/snow11.png),
-    url(../img/snow22.png);
+    background-image: url(../img/snow11.png), url(../img/snow22.png);
     -webkit-animation: snow 20s linear infinite;
     -moz-animation: snow 20s linear infinite;
     -ms-animation: snow 20s linear infinite;
@@ -716,4 +722,81 @@ textarea::placeholder {
     0% { background-position: 0px 0px, 0px 0px, 0px 0px }
 
     100% { background-position: 500px 1000px, 400px 400px, 300px 300px }
+}
+
+
+
+
+
+
+
+.modal {
+  /* Не обязательно  block */
+  /*display: block; */
+  width: 600px;  
+  position: fixed;  
+  z-index: 100;  
+  left: 50%;
+  top: 50%;
+
+  
+  /* Центруем */
+  transform: translate(-50%, -50%); 
+
+  
+  background: white;
+  box-shadow: 0 0 60px 10px rgba(0, 0, 0, 0.9);
+}
+
+.closed {
+  display: none;
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 50;  
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.modal .close-buy {
+  cursor: pointer;
+  z-index: 1;
+  font-family: 'Montserrat', sans-serif;
+  border: 0;
+  background: #da2727;
+  color: white;
+  padding: 5px 10px;
+  font-size: 1.3rem;
+}
+
+.cart {
+  z-index: 1;
+  font-family: 'Montserrat', sans-serif;  
+  border: 0;
+  background: black;
+  color: white;
+  padding: 5px 10px;
+  font-size: 1.3rem;
+  text-decoration: none;
+}
+
+.cart:hover {
+	background: #da2727;
+	color: white;
+}
+
+.space-around {	
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding: 0 12px;
+}
+
+.space-around p {
+	font-size: 31px;
+    margin: 25px 0;
 }
