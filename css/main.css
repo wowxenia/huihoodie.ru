@@ -68,8 +68,7 @@ body {
 }
 
 .menu a{	
-	text-decoration: none;	
-	/*text-transform: uppercase;*/
+	text-decoration: none;
 	color: #da2727;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 800;
@@ -85,7 +84,6 @@ body {
 	height: 700px;
 	width: 1350px;
 	border: 2px solid #da27274f;
-	/*position: relative;*/
 }
 
 .center-img {
@@ -97,7 +95,6 @@ body {
 .main-items {
 	width: 1200px;
 	margin: auto;
-	/*padding: 30px;*/
 	display: flex;
 	justify-content: space-around;
 	flex-wrap: wrap;
@@ -475,57 +472,6 @@ body {
 
 /*form*/
 
-@-webkit-keyframes myfirst
-{
-	0% {margin-left: -60%}
-	90% {margin-left: 50%;}
-	100% {margin-left: 100%;}
-}
-
-/* Animation dick*/
-@keyframes myfirst
-{
-	0% {margin-left: -60%}
-	70% {margin-left: 50%;}
-	100% {margin-left: 100%;}
-}
-
-@-webkit-keyframes filter-animation {
-	0% {
-		-webkit-filter: hue-rotate(0deg) ;
-	}
-
-	25% {
-		-webkit-filter: hue-rotate(90deg);
-	}
-
-	50% {
-		-webkit-filter: hue-rotate(180deg);
-	}
-
-	75% {
-		-webkit-filter: hue-rotate(270deg);
-	}
-
-	100% {
-		-webkit-filter: hue-rotate(360deg);
-	}
-}
-
-.dick{
-	background: url(../img/dick-1.svg) no-repeat;
-	width: 235px;
-	height: 200px;
-	margin-left: -60%;
-	position: absolute;	
-	animation: myfirst 36s, filter-animation 1s infinite;
-	-webkit-animation: myfirst 36s, filter-animation 1s infinite;
-	animation-iteration-count: infinite;
-	-webkit-animation-iteration-count: infinite;
-	animation-timing-function: linear;
-	-webkit-animation-timing-function: linear;
-}
-
 form { 
 	max-width: 420px;
 	margin: 50px; 
@@ -589,46 +535,85 @@ textarea::placeholder {
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
-	border-top: 3px solid white;
 }
 
 .menu-footer {
 	padding: 0;
-	margin: 0;
+	margin: 0;	
+	display: flex;
+	margin: 5px;
 }
 
-.menu-footer ul {
-	padding: 0;
+.menu-footer .vk,
+.menu-footer .twitter,
+.menu-footer .instagram,
+.menu-footer .telegram {	
+	width: 40px;
+	height: 40px;
+	margin: 5px 5px;
+	padding: 3px 3px;
 }
 
-.menu-footer li {
-	padding: 5px;
-	margin: 0 10px;
-	display: inline-block;
-	width: 30px;
-	height: 30px;
-	background: white;
-	cursor: pointer;
-	transition: ease-in-out .3s;
+.menu-footer .vk {
+	background: url(../img/social/vk.svg) #fff no-repeat center;
+	background-size: 85%;
 }
 
-.menu-footer li img {
-	width: 30px;
-	height: 30px;
+.menu-footer .twitter {
+	background: url(../img/social/twitter.svg) #fff no-repeat center;
+	background-size: 75%;
 }
 
-.menu-footer li:hover {
-	background: #484848;
+.menu-footer .instagram {
+	background: url(../img/social/instagram.svg) #fff no-repeat center;
+	background-size: 75%;	
+}
+
+.menu-footer .telegram {
+	background: url(../img/social/telegram.svg) #fff no-repeat center;
+	background-size: 75%;
+}
+
+.vk:hover {
+	background: url(../img/social/vk-w.svg) #484848 no-repeat center;
 	transition: .3s;
+	background-size: 85%;
+	width: 40px;
+	height: 40px;
+	margin: 5px 5px;
+	padding: 3px 3px;
+	cursor: pointer;
 }
 
-#snow {
+.twitter:hover {
+	background: url(../img/social/twitter-w.svg) #484848 no-repeat center;
+	transition: .3s;
+	background-size: 75%;
+	cursor: pointer;
+}
+
+.instagram:hover {
+	background: url(../img/social/instagram-w.svg) #484848 no-repeat center;
+	transition: .3s;
+	background-size: 75%;
+	cursor: pointer;
+}
+
+.telegram:hover {
+	background: url(../img/social/telegram-w.svg) #484848 no-repeat center;
+	transition: .3s;
+	background-size: 75%;
+	cursor: pointer;
+}
+
+
+#downDick {
     background-color: transparent;
     background-image: url(../img/dick1.png), url(../img/dick2.png);
-    -webkit-animation: snow 20s linear infinite;
-    -moz-animation: snow 20s linear infinite;
-    -ms-animation: snow 20s linear infinite;
-    animation: snow 20s linear infinite;
+    -webkit-animation: downDick 20s linear infinite;
+    -moz-animation: downDick 20s linear infinite;
+    -ms-animation: downDick 20s linear infinite;
+    animation: downDick 20s linear infinite;
 	z-index: 999;
 	right: 0;
 	top: 0;
@@ -639,35 +624,31 @@ textarea::placeholder {
 
 /*Keyframes*/
 
-@keyframes snow { 
+@keyframes downDick { 
     0% { background-position: 0px 0px, 0px 0px, 0px 0px }
 
     100% { background-position: 500px 1000px, 400px 400px, 300px 300px }
 }
 
-@-moz-keyframes snow { 
+@-moz-keyframes downDick { 
     0% { background-position: 0px 0px, 0px 0px, 0px 0px }
 
     100% { background-position: 500px 1000px, 400px 400px, 300px 300px }
 }
 
-@-webkit-keyframes snow { 
+@-webkit-keyframes downDick { 
     0% { background-position: 0px 0px, 0px 0px, 0px 0px }
 
-    100% {
-        background-position: 500px 1000px, 400px 400px, 300px 300px;
-    }
+    100% { background-position: 500px 1000px, 400px 400px, 300px 300px; }
 }
 
-@-ms-keyframes snow { 
-    0% { background-position: 0px 0px, 0px 0px, 0px 0px }
-
+@-ms-keyframes downDick { 
+		0% { background-position: 0px 0px, 0px 0px, 0px 0px }
+		
     100% { background-position: 500px 1000px, 400px 400px, 300px 300px }
 }
 
 .modal {
-  /* Не обязательно  block */
-  /*display: block; */
   width: 600px;  
   position: fixed;  
   z-index: 100;  
