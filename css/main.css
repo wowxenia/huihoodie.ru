@@ -1,9 +1,3 @@
-@font-face {
-	font-family: 'Odudo';
-	src: (../fonts/Odudo-Bold.otf);
-	src: (../fonts/Odudo-Regular.otf);
-}
-
 button, 
 button:active, 
 button:focus {
@@ -13,22 +7,11 @@ button:focus {
 body {
 	margin: 0;
 	padding: 0;
-	/*background: url(../img/dick-3.svg);*/
-	/*-webkit-background-size: 2%;*/
-	/*background-size: 2%;*/
 	font-family: 'Montserrat', sans-serif;
 }
 
-
 .container {
 	margin: auto;
-	/*width: 100%;*/
-}
-
-mark {
-	background: none;
-	color: black;
-	font-weight: 700;
 }
 
 /*header*/
@@ -94,8 +77,6 @@ mark {
 	font-size: 22px;
 }
 
-
-
 /*main*/
 
 .main-block {
@@ -109,7 +90,6 @@ mark {
 
 .center-img {
 	position: absolute; 
-	/*top: -190px!important;*/
 }
 
 /*items*/
@@ -146,7 +126,6 @@ mark {
  	position: relative;
  	text-align: center;
  	cursor: default;
- 	/*float: left;*/
 }
 
 
@@ -161,7 +140,7 @@ mark {
 .item9, .mask {
 	width: 350px;
 	height: 600px;
-		display: flex;
+	display: flex;
 	align-items: center;
 	position: relative;
 	overflow: hidden;
@@ -202,9 +181,6 @@ mark {
 	width: 100%;
 	font-family: 'Didact Gothic', sans-serif;
 	font-size: 16px;
-	/*position: absolute;*/
-	/*top: 25%;*/
-	/*left: 0;	*/
 	padding: 10px 10px;
 	text-align: center;
 }
@@ -271,47 +247,47 @@ mark {
 }
 
 .item1 { 	
-	background: url(../img/1e1e1/model1.jpg);
+	background: url(../img/models/model1.jpg);
 	background-position: 100% 0;
 }
 
 .item2 {	
-	background: url(../img/1e1e1/model2.jpg);
+	background: url(../img/models/model2.jpg);
 	background-position: 100% 0;
 }
 
 .item3 {
-	background: url(../img/1e1e1/model3.jpg);
+	background: url(../img/models/model3.jpg);
 	background-position: 70% 0;
 }
 
 .item4 {
-	background: url(../img/1e1e1/model4.jpg) no-repeat;
+	background: url(../img/models/model4.jpg) no-repeat;
 	background-position: 30% 0;
 }
 
 .item5 {
-	background: url(../img/1e1e1/model5.jpg) no-repeat;
+	background: url(../img/models/model5.jpg) no-repeat;
 	background-position: 30% 0;
 }
 
 .item6 {
-	background: url(../img/1e1e1/model1.jpg) no-repeat;
+	background: url(../img/models/model1.jpg) no-repeat;
 	background-position: 100%;
 }
 
 .item7 {
-	background: url(../img/1e1e1/model2.jpg) no-repeat;
+	background: url(../img/models/model2.jpg) no-repeat;
 	background-position: 60% 0%;
 }
 
 .item8 {
-	background: url(../img/1e1e1/model3.jpg) no-repeat;
+	background: url(../img/models/model3.jpg) no-repeat;
 	background-position: 100%;
 }
 
 .item9 {
-	background: url(../img/1e1e1/model4.jpg) no-repeat;
+	background: url(../img/models/model4.jpg) no-repeat;
 	background-position: 40%;
 }
 
@@ -319,14 +295,12 @@ mark {
 	position: absolute;
 	bottom: 0;
 	right: 0;
-	/*z-index: 1;*/
 	color: white;
 	background: #00000061;
 	padding: 5px 10px;
 	font-family: 'Montserrat', sans-serif;
 	text-transform: uppercase;
 }
-
 
 /*delivery*/
 
@@ -347,7 +321,6 @@ mark {
 	-moz-user-select: none;
 	-khtml-user-select: none;
 	user-select: none;  
-
 }
 
 .delivery-main {
@@ -359,7 +332,6 @@ mark {
 	height: 535px;
 }
 
-
 @-webkit-keyframes mysecond 
 {
 	0% {margin-left: -100%}
@@ -368,22 +340,24 @@ mark {
 }
 
 /* Animation */
+
 @keyframes mysecond
 {
-	0% {margin-left: -100%}
-	/* 	40% {margin-left: 10%;} */
-	100% {margin-left: 0;
-		opacity: 1}
+	0% {
+		margin-left: -100%
 	}
+	100% {
+		margin-left: 0;
+		opacity: 1
+	}
+}
 
 .delivery-img {
 	opacity: 0;
 	display: flex;
-	/*overflow: hidden;*/
 	background: url(../img/delivery-truck.svg) no-repeat;
 	width: 320px;
 	height: 270px;
-	/*margin-left: -25%;*/
 	position: relative;
 	right: 25%;	
 	background-size: 320px;
@@ -403,7 +377,6 @@ mark {
 	top: 0;
 	right: 5%;
 	position: absolute;
-	/*margin-left: 15%;*/
 }
 
 .delivery-text h2 {
@@ -412,8 +385,8 @@ mark {
 	width: 180px;
 	color: white;
 	font-weight: 400;
-    text-align: center;
-    padding: 2px;
+  text-align: center;
+  padding: 2px;
 }
 
 .delivery-text ul {
@@ -439,19 +412,6 @@ mark {
   right: 0;
   top: 50%;
 }
-
-/*.strikeout_b {
-  position: relative;
-}
-.strikeout_b::after {
-  border-bottom: 0.35em solid #484848;
-  content: "";
-  left: 0;
-  margin-top: calc(0.21em / 2 * -1);
-  position: absolute;
-  right: 0;
-  top: 50%;
-}*/
 
 /*contact*/
 
@@ -564,17 +524,6 @@ mark {
 	-webkit-animation-iteration-count: infinite;
 	animation-timing-function: linear;
 	-webkit-animation-timing-function: linear;
-	/*opacity: 0.3;*/
-}
-
-#dick{
-	top: 80px;
-}
-
-#dick2{
-	top: 420px;
-	animation-delay: 12s;
-	-webkit-animation-delay: 12s;
 }
 
 form { 
@@ -617,7 +566,6 @@ textarea::placeholder {
 	margin-top: 10px;
 	padding: 15px 10px;
 	font-family: 'Montserrat', sans-serif;
-	/*width: 100%;*/
 	background: #da2727;
 	font-weight: 600;
 	border:0;
@@ -633,10 +581,8 @@ textarea::placeholder {
 	color: white;
 }
 
-
-
-
 /*footer*/
+
 .footer {
 	height: 100px;
 	background: #da2727;
@@ -676,12 +622,9 @@ textarea::placeholder {
 	transition: .3s;
 }
 
-
-
-
 #snow {
     background-color: transparent;
-    background-image: url(../img/snow11.png), url(../img/snow22.png);
+    background-image: url(../img/dick1.png), url(../img/dick2.png);
     -webkit-animation: snow 20s linear infinite;
     -moz-animation: snow 20s linear infinite;
     -ms-animation: snow 20s linear infinite;
@@ -722,12 +665,6 @@ textarea::placeholder {
     100% { background-position: 500px 1000px, 400px 400px, 300px 300px }
 }
 
-
-
-
-
-
-
 .modal {
   /* Не обязательно  block */
   /*display: block; */
@@ -735,13 +672,8 @@ textarea::placeholder {
   position: fixed;  
   z-index: 100;  
   left: 50%;
-  top: 50%;
-
-  
-  /* Центруем */
-  transform: translate(-50%, -50%); 
-
-  
+  top: 50%;  
+  transform: translate(-50%, -50%);   
   background: white;
   box-shadow: 0 0 60px 10px rgba(0, 0, 0, 0.9);
 }
