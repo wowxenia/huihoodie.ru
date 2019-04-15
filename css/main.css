@@ -29,11 +29,9 @@ mark {
 	background: none;
 	color: black;
 	font-weight: 700;
-} 
-
+}
 
 /*header*/
-
 
 .header-main {	
 	display: flex;
@@ -273,47 +271,47 @@ mark {
 }
 
 .item1 { 	
-	background: url(../img/1e1e1/model1.png);
+	background: url(../img/1e1e1/model1.jpg);
 	background-position: 100% 0;
 }
 
 .item2 {	
-	background: url(../img/1e1e1/model2.png);
+	background: url(../img/1e1e1/model2.jpg);
 	background-position: 100% 0;
 }
 
 .item3 {
-	background: url(../img/1e1e1/model3.png);
+	background: url(../img/1e1e1/model3.jpg);
 	background-position: 70% 0;
 }
 
 .item4 {
-	background: url(../img/1e1e1/model4.png) no-repeat;
+	background: url(../img/1e1e1/model4.jpg) no-repeat;
 	background-position: 30% 0;
 }
 
 .item5 {
-	background: url(../img/1e1e1/model5.png) no-repeat;
+	background: url(../img/1e1e1/model5.jpg) no-repeat;
 	background-position: 30% 0;
 }
 
 .item6 {
-	background: url(../img/1e1e1/model1.png) no-repeat;
+	background: url(../img/1e1e1/model1.jpg) no-repeat;
 	background-position: 100%;
 }
 
 .item7 {
-	background: url(../img/1e1e1/model2.png) no-repeat;
+	background: url(../img/1e1e1/model2.jpg) no-repeat;
 	background-position: 60% 0%;
 }
 
 .item8 {
-	background: url(../img/1e1e1/model3.png) no-repeat;
+	background: url(../img/1e1e1/model3.jpg) no-repeat;
 	background-position: 100%;
 }
 
 .item9 {
-	background: url(../img/1e1e1/model4.png) no-repeat;
+	background: url(../img/1e1e1/model4.jpg) no-repeat;
 	background-position: 40%;
 }
 
