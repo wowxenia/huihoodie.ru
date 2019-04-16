@@ -609,7 +609,7 @@ textarea::placeholder {
 
 #downDick {
     background-color: transparent;
-    background-image: url(../img/dick1.png), url(../img/dick2.png);
+    background-image: url(../img/dick1.gif), url(../img/dick2.gif);
     -webkit-animation: downDick 20s linear infinite;
     -moz-animation: downDick 20s linear infinite;
     -ms-animation: downDick 20s linear infinite;
