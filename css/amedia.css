@@ -10,21 +10,7 @@
 	}
 	.delivery-text {
 		height: 600px;
-	}
-	#downDick {
-    background-color: transparent;
-    background-image: url(../img/dick1.gif), url(../img/dick2.gif);
-    -webkit-animation: downDick 0s linear infinite;
-    -moz-animation: downDick 0s linear infinite;
-    -ms-animation: downDick 0s linear infinite;
-    animation: downDick 0s linear infinite;
-	z-index: 999;
-	right: 0;
-	top: 0;
-	left: 0;
-	bottom: 0;
-	margin-top: 0;
-}
+	}	
 }
 
 @media screen and (max-width: 1680px) {
@@ -43,4 +29,18 @@
 	.delivery-main {
 		height: 680px;
 	}
+	#downDick {
+    background-color: transparent;
+    background-image: url(../img/dick1.gif), url(../img/dick2.gif);
+    -webkit-animation: downDick 0s linear infinite;
+    -moz-animation: downDick 0s linear infinite;
+    -ms-animation: downDick 0s linear infinite;
+    animation: downDick 0s linear infinite;
+	z-index: 999;
+	right: 0;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	margin-top: 0;
+}
 }
