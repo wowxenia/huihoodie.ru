@@ -10,6 +10,53 @@ body {
 	font-family: 'Montserrat', sans-serif;
 }
 
+#ageWrapper { 
+  opacity:20;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 9000;
+  background-color:  rgba(56, 56, 56, 0.85);
+  transition: visibility 0s ease-in-out .5s, opacity .5s ease-in-out;
+}
+
+#ageWrapper.ageUnknown {
+  visibility: visible;
+  opacity: 1;
+}
+
+#agePopUp {
+	display: flex;
+	flex-direction: column;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  background-color: #fff;
+	text-align: center;
+  padding: 20px;
+  width: 360px;
+  /* height: 150px; */
+  margin-top: -105px;
+  margin-left: -185px;
+  box-sizing: border-box;
+}
+
+#agePopUp a {
+	background-color: #da2727;
+  color: white;
+  padding: 10px 20px;
+	margin-top: 20px;
+	text-decoration: none;
+}
+
+.ageConfirmed{
+  z-index:-1;
+  visibility:hidden;
+}
+
+
 .container {
 	margin: auto;
 }
