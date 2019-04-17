@@ -145,10 +145,10 @@ body {
 	left: 0;
 }
 
-.item1 h2,
-.item2 h2,
-.item3 h2,
-.item4 h2,
+.item1 h2, .item-1 h2,
+.item2 h2, .item-2 h2,
+.item3 h2, .item-3 h2,
+.item4 h2, .item-4 h2,
 .item5 h2,
 .item6 h2,
 .item7 h2,
@@ -166,7 +166,10 @@ body {
 	background: rgba(0, 0, 0, 0.8);
 }
 
-.item1 p,
+.item1 p, .item-1 p,
+.item2 p, .item-2 p,
+.item2 p, .item-3 p,
+.item2 p, .item-4 p,
 .item2 p,
 .item3 p,
 .item4 p,
@@ -182,10 +185,10 @@ body {
 	text-align: center;
 }
 
-.item1 button.buy,
-.item2 button.buy,
-.item3 button.buy,
-.item4 button.buy,
+.item1 button.buy, .item-1 button.buy,
+.item2 button.buy, .item-2 button.buy,
+.item3 button.buy, .item-3 button.buy,
+.item4 button.buy, .item-4 button.buy,
 .item5 button.buy,
 .item6 button.buy,
 .item7 button.buy,
@@ -205,10 +208,10 @@ body {
 	cursor: pointer;
 }
 
-.item1 button.buy:hover,
-.item2 button.buy:hover,
-.item3 button.buy:hover,
-.item4 button.buy:hover,
+.item1 button.buy:hover, .item-1 button.buy:hover,
+.item2 button.buy:hover, .item-2 button.buy:hover,
+.item3 button.buy:hover, .item-3 button.buy:hover,
+.item4 button.buy:hover, .item-4 button.buy:hover,
 .item5 button.buy:hover,
 .item6 button.buy:hover,
 .item7 button.buy:hover,
@@ -217,12 +220,14 @@ body {
 	border-bottom: 2px solid white;
 } 
 
-.item-mask .mask {
+.item-mask .mask,
+.item-mask .mask2 {
 	background-color: rgba(56, 56, 56, 0.75);
 	transform: translateX(-350px);
 	opacity: 1;
 	transition: all 0.4s ease-in-out;
 }
+
 .item-mask h2{
 	background: rgba(255, 255, 255, 0.5);
 	color: #000;
@@ -234,7 +239,8 @@ body {
 	transition: all 0.2s linear;
 }
 
-.item-mask:hover .mask {
+.item-mask:hover .mask,
+.item-mask:hover .mask2 {
 	transform: translateX(0px);
 }
 
@@ -297,6 +303,77 @@ body {
 	padding: 5px 10px;
 	font-family: 'Montserrat', sans-serif;
 	text-transform: uppercase;
+}
+
+/*souvenir*/
+
+.header-souvenir {
+	height: 100px;
+	background: #da2727;
+}
+
+.header-souvenir h2 {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 900;
+	font-style: italic;
+	font-size: 38px;
+	color: white;
+	text-align: center;	
+	line-height: 100px;
+	margin: auto;
+	-moz-user-select: none;
+	-khtml-user-select: none;
+	user-select: none;  
+}
+
+.souvenir-item {
+	display: flex;
+	justify-content: center;
+}
+
+.souvenir-item .item-1,
+.souvenir-item .item-2,
+.souvenir-item .item-3,
+.souvenir-item .item-4 {
+	height: 300px;
+	width: 300px;
+	border: 1px solid #da27274f;
+	margin: 30px 20px;
+}
+
+.souvenir-item .item-1{
+	background: url(../img/souvenir/mug.jpg) no-repeat center;
+	background-size: 100%;
+}
+
+.souvenir-item .item-2{
+	background: url(../img/souvenir/beanie.jpg) no-repeat center;
+	background-size: 100%;
+}
+
+.souvenir-item .item-3{
+	background: url(../img/souvenir/bag.jpg) no-repeat center;
+	background-size: 90%;
+}
+
+.souvenir-item .item-4{
+	background: url(../img/souvenir/bottle.jpg) no-repeat center;
+	background-size: 100%;
+}
+
+.item-1, 
+.item-2,
+.item-3,
+.item-4,
+.mask2 {
+	width: 300px;
+	height: 300px;
+	display: flex;
+	align-items: center;
+	position: relative;
+	overflow: hidden;
+	top: 0;
+	left: 0;
 }
 
 /*delivery*/
@@ -409,6 +486,8 @@ body {
   right: 0;
   top: 50%;
 }
+
+
 
 /*contact*/
 
