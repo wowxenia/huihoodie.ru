@@ -45,12 +45,20 @@ $(document).ready(function(){
   $('#ageWrapper').prependTo($('body'));
 
   // check if the age has already been verified
-  if (($.cookie('age')) !== 'true') { $('#ageWrapper').addClass('ageConfirmed'); }
+  if (($.cookie('age')) == 'true') { 
+    $('#ageWrapper').addClass('ageConfirmed'); 
+  } else {
+    $('#ageWrapper').removeClass('ageConfirmed');
+  }
 
   // if the "yes" button is clicked, add a cookie and hide the popup
   $('#ageOkay').click(function() {
-    $.cookie('age', 'true', { expires: 1, path: '/' });
-    $('#ageWrapper').removeClass('ageUnknown');
+    $.cookie('age', 'true', { 
+      expires: 1, path: '/' 
+    });
+    $('#agePopUp').fadeOut(1200, function() {
+			$('#ageWrapper').css('display', 'none');			
+		});		
   });
 
   // if the "no" button is clicked, take the user elsewhere
