@@ -10,6 +10,17 @@ body {
 	font-family: 'Montserrat', sans-serif;
 }
 
+.cat-shake img{
+	margin: -120px auto;
+	overflow:  hidden;
+	width: 100%;
+	transform: scale(1.05);
+}
+
+.cat-overflow {
+	overflow: hidden;
+}
+
 #ageWrapper { 
   opacity:20;
   position: fixed;
