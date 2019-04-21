@@ -1,8 +1,8 @@
 /*media*/
 
-@media screen and (max-width: 1349px) {
+@media screen and (max-width: 1359px) {
 	.container {
-		width:  1349px;
+		width:  1359px;
 		margin: 0 auto;
 	}
 	.delivery-main {
